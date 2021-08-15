@@ -1,0 +1,60 @@
+.modal-form {
+  width: 300px;
+  min-height: 300px;
+  box-shadow: 0px 15px 15px 0 #ccc;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.modal-form-input {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+}
+
+.modal-form-input:not(:placeholder-shown):valid {
+  border-color: teal;
+}
+
+.modal-form-input:not(:placeholder-shown):invalid {
+  border-color: tomato;
+}
+
+.modal-form-input:focus {
+  outline: none;
+}
+
+.modal-form-btn {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+}
+
+.modal-form-btn:focus,
+.modal-form-btn:hover {
+  box-shadow: 0px 15px 15px 0 #ccc;
+}
+
+.modal-form-userage {
+  border: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+.modal-form-group {
+  margin-bottom: 20px;
+}
+
+.modal-form-textarea {
+  display: block;
+  width: 100%;
+  resize:vertical;
+  padding-left: 20px;
+  height: 120px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
